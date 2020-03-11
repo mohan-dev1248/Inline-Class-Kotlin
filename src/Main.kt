@@ -23,3 +23,12 @@ inline class Password(val password: String){
     }
 }
 
+//Inline classes in general allowed to implement only interfaces
+//Even extending abstract class is also not possible
+//
+//inline class NumberPattern(val numPattern: String): Pattern
+//
+//
+//abstract class Pattern(val pattern: String){
+//
+//}
