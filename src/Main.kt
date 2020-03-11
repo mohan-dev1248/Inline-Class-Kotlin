@@ -32,3 +32,6 @@ inline class Password(val password: String){
 //abstract class Pattern(val pattern: String){
 //
 //}
+
+
+//Also note that we cannot call a function that takes Inline classes as parameters from Java
